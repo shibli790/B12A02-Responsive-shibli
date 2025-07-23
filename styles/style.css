@@ -6,288 +6,327 @@
 }
 
 /* share item  */
-.clour-i{
-    color: rgb(233, 90, 8);
+.clour-i {
+  color: rgb(233, 90, 8);
 }
 
-.clour-p{
-    color: rgba(0, 0, 0, 0.5);
-    
+.clour-p {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-
-
-.aline-all{
-    text-align: center;
+.aline-all {
+  text-align: center;
 }
 
-
-.btn{
-    padding: 20px 40px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 600px;
-    background-color: rgb(233, 90, 8);
-    color: aliceblue;
-    border: none;
-    
+.btn {
+  padding: 20px 40px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600px;
+  background-color: rgb(233, 90, 8);
+  color: aliceblue;
+  border: none;
 }
 
-
-
-
-
-body{
-    max-width: 1140px;
-    margin: 0px auto;
+main {
+  max-width: 1140px;
+  margin: 0px auto;
 }
 /* header section start  */
 
-.navbar{
-     display: flex;
-     justify-content: space-between;
-     /* padding: 3em 8em; */
-     align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 3em 8em; */
+  align-items: center;
 }
 
-.nav-links ul{
-    list-style: none;
-    display: flex;
-    gap: 4em;
-    margin-top: 35px;  
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 4em;
+  margin-top: 35px;
 }
 
-.nav-links a{
-    text-decoration: none;
+.nav-links a {
+  text-decoration: none;
 }
-.logo{
-    margin-top: 24px;
-
+.logo {
+  margin-top: 24px;
 }
-
-
 
 /* hero-section */
 
-.hero{
-    display: flex;
-    flex: 1;
-    margin-top: 120px;
-    justify-content: space-between;
-    align-items: flex-end;
+.hero {
+  display: flex;
+  flex: 1;
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.hero img{
-    display: flex ;
-    flex: 1;    
+.hero img {
+  display: flex;
+  flex: 1;
 }
 /* hero item  */
-.hero-item h1{
-
-
-line-height: 89px;
-font-size: 65px;
-font-weight: 700;
-text-align: left;
-
+.hero-item h1 {
+  line-height: 89px;
+  font-size: 65px;
+  font-weight: 700;
+  text-align: left;
 }
-.hero-item p{
-font-size: 22px;
-font-weight: 400;
-line-height: 27px;
+.hero-item p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
 }
-
-
-
-
 
 /* plant-section----all start */
 
-.plant-title{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 16px;
-text-align: center;
-margin-top: 120px;
-margin-bottom: 50px;
+.plant-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
 
-.plant-title h1{
-    font-weight: 700px;
-    font-size: 3.5rem;
+.plant-title h1 {
+  font-weight: 700px;
+  font-size: 3.5rem;
 }
-.plant-main{
-/* gap: 16px; */
-margin-top: 120px;
-margin-bottom: 50px;
+.plant-main {
+  /* gap: 16px; */
+  margin-top: 120px;
+  margin-bottom: 50px;
 }
-
-
 
 /* plant main card all  */
 
-.plant-card{
-    text-align: center;
-    border: 1px solid black;
-    width: fit-content;
-    border: none;
+.plant-card {
+  text-align: center;
+  border: 1px solid black;
+  width: fit-content;
+  border: none;
 }
-.plant-card h3{
-    margin: 15px;
+.plant-card h3 {
+  margin: 15px;
 }
-.plant-card h1{
-    margin-top: 30PX;
+.plant-card h1 {
+  margin-top: 30px;
 }
 
-
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    gap: 20px 10px;
-
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 10px;
 }
 
 /* plant-section----all end */
 
-
-
-
 /* floure-store-section-start */
 
-
-.floure-store{
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    margin: 220px 0px 100px 0px;
-   
+.floure-store {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin: 220px 0px 100px 0px;
 }
 
 /* .store-text{
     width: 900px;
     height: 500px;
 } */
-.store-text h5{
-    font-size: 50px;
-    font-weight: 700;
-
+.store-text h5 {
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .text-title ul {
-    padding: 0.5rem  0rem 0rem 1.3rem;
-    width: fit-content;
-    
-    
-       
+  padding: 0.5rem 0rem 0rem 1.3rem;
+  width: fit-content;
 }
 
-.text-title li{
-    margin-bottom: 1.5rem;
-    
+.text-title li {
+  margin-bottom: 1.5rem;
 }
 
-
-
-
-.sill{
-position: absolute;
-width: 286px;
-height: 286px;
-left: 747px;
-top: 1992px;
+.sill {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  left: 560px;
+  top: 1992px;
 }
-
-
 
 /* section latest part  */
-
-
-
-.img-card-testall{
- display: flex;
- gap: 20px;
- margin-bottom: 120px;
-
+.img-card-testall {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 120px;
 }
 
+.first-img-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 
-.first-img-card{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-
-padding: 0px;
-gap: 20px;
+  padding: 0px;
+  gap: 20px;
 }
 
+.image1 {
+  font-size: 15px;
+  font-weight: 700;
 
-.image1{
-font-size: 15px;
-font-weight: 700;
+  letter-spacing: 0%;
+  text-align: center;
+  width: fit-content;
 
-letter-spacing: 0%;
-text-align: center;
-width: fit-content;
+  width: 366.22px;
+  height: 206px;
+  left: 0;
+  top: -5px;
 
-width: 366.22px;
-height: 206px;
+  display: grid;
+  place-content: center;
+  border-radius: 1rem;
+  background-image: url(../assets/deal-ana.png);
+  color: white;
+  filter: brightness(80%);
+  background-repeat: no-repeat;
+}
+.image1 a {
+  color: white;
+}
+
+.image11 {
+  background-image: url(../assets/deal-bloom.png);
+  color: white;
+  filter: brightness(80%);
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: center;
+
+  display: grid;
+  place-content: center;
+  width: 100%;
+  border-radius: 1rem;
+
+  background-image: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  color: white;
+  filter: brightness(80%);
+  z-index: 0;
+}
+.image2 a {
+  color: white;
+  z-index: 1;
+}
+
+.flexall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section latest end  */
+
+/* .form-section{
+background-color: antiquewhite;
+width: 100%;
+height: 533px;
 left: 0;
-top: -5px;
+top: 0;
 
-display: grid;
-place-content: center;
-border-radius: 1rem;
-background-image: url(../assets/deal-ana.png);
-color: white;
-filter: brightness(80%);
+} */
+
+.from-section {
+  /* position: absolute; */
+  width: 1440px;
+  height: 533px;
+  left: 0;
+  top: 0;
+  background-color: antiquewhite;
+  width: 100%;
+  top: 3500px;
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.form-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.form-item input[type="email"] {
+  padding: 10px 15px;
+  width: 31.25rem;
+  font-size: 1rem;
+  border-radius: 3px 0 0 3px;
+  border: none;
+  outline: none;
 
 }
-.image1 a{
+
+.form-item button{
+    padding: 10px 30px;
+    background-color: rgb(233, 90, 8);
     color: white;
+    border: none;
+
+}
+.form-item {
+    display: flex;
 }
 
 
-.image11{
-    background-image: url(../assets/deal-bloom.png);
-    color: white;
-    filter: brightness(80%);
 
+
+/* footer -section start */
+
+.footer-main{
+    margin: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f-main-img img{
+    margin-bottom: 0.6rem;
+}
+.f-container a{
+    text-decoration: none;
+
+}
+.f-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 2rem;
     
 }
 
-.image2{
-font-size: 2rem;
-font-weight: 700;
-letter-spacing: 0%;
-text-align: center;
-
-display: grid;
-place-content: center;
-width: 100%;
-border-radius: 1rem;
+.f-social{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 2rem;
+    align-content: baseline;
 
 
-
-background-image: url(../assets/deal-zabo.png);
-background-repeat: no-repeat;
-color: white;
-filter: brightness(80%);
-z-index: 0;
-}
-.image2 a{
-    color: white;
-    z-index: 1;
-}
-
-
-
-.flexall{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
-
-
