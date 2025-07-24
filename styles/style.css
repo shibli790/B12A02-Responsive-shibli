@@ -5,6 +5,10 @@
   font-family: "Noto Serif", serif;
   /* background-color: #fafcff; */
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 /* share item  */
 .clour-i {
@@ -146,12 +150,13 @@ main {
 }
 
 .store-text{
-    /* width: 900px;
-    height: 500px; */
+    /* width: 361px;
+    height: 234px; */
 
-    /* position: static;
-width: 540px;
-height: 521px; */
+    /* position: static; */
+/* width: 540px;
+height: 521px;
+padding: 30px; */
 }
 .store-text h5 {
   font-size: 50px;
@@ -376,8 +381,6 @@ top: 0;
   .menu {
     display: none;
   }
-
-
   .hero {
     flex-direction:column-reverse;
     gap: 3rem;
@@ -396,15 +399,29 @@ top: 0;
   .plant-card img {
   width: 210px;
   }
-
-
   .floure-store {
    flex-direction: column;
-   margin-top: 30px;
+   margin-top: 30px; 
+
+  }
+.store-text h5{
+  color: rgb(0, 0, 0);
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.store-text {
+    width: 90%;
     
   }
+
   .res-img-store{
     width: 420px;
+
     
   }
 /* <!-- plants-section-end  --> */
@@ -438,12 +455,10 @@ top: 0;
   font-size: 1rem;
   margin-left: 15px;
 }
-
-/* body {
-  padding: 10px 20px;
-} */
-
 /* form-section-end*/
+
+
+
 .footer-main {
   flex-direction: column;
   margin: 30px 160px 50px 30px;
