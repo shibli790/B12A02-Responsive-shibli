@@ -139,6 +139,10 @@ main {
 
 /* plant-section----all end */
 
+
+
+
+
 /* floure-store-section-start */
 
 .floure-store {
@@ -146,7 +150,7 @@ main {
   gap: 60px;
   align-items: center;
   justify-content: center;
-  margin: 220px 0px 100px 0px;
+  margin: 220px 0px 100px 50px;
 }
 
 .store-text{
@@ -188,6 +192,12 @@ height: 247px;
 left: 780px;
 top: 2069px;
 }
+
+
+
+
+
+
 
 /* section latest part  */
 .img-card-testall {
@@ -239,7 +249,7 @@ top: 2069px;
 }
 
 .image2 {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 0%;
   text-align: center;
@@ -267,6 +277,8 @@ top: 2069px;
 }
 
 /* section latest end  */
+
+
 
 /* .form-section{
 background-color: antiquewhite;
@@ -379,12 +391,22 @@ top: 0;
   
 /*  Responsive hide menu mobile screens */
 @media (max-width: 768px) {
+  main{
+    /* margin: 20px 20px; */
+  }
   .menu {
     display: none;
   }
+
+
   .hero {
     flex-direction:column-reverse;
     gap: 3rem;
+  }
+
+  .logo{
+      position: relative;
+      left: 10px;
   }
 
 /* <!-- plants-section-start  --> */
@@ -395,6 +417,9 @@ top: 0;
   .card-container {
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
+    position :relative;
+    /* right: 20px; */
+
 
   }
   .plant-card img {
@@ -403,6 +428,7 @@ top: 0;
   .floure-store {
    flex-direction: column;
    margin-top: 30px; 
+   margin-right: 50px;
 
   }
 .store-text h5{
@@ -438,7 +464,7 @@ top: 0;
 .image2 {
   width: 366px;
   height: 206px;
-  margin-left: 28px;
+  margin-left: 30px;
 
 }
 /* latest-section-end */
@@ -483,7 +509,5 @@ top: 0;
 /* desktop */
 
 @media (max-width: 992px) {
- 
-
 
 }
